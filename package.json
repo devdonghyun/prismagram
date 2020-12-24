@@ -1,0 +1,31 @@
+{
+  "name": "prismagram",
+  "version": "1.0.0",
+  "description": "Instagram clone with Express +Prisma + React and React Native",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devdonghyun/prismagram.git"
+  },
+  "author": "devdonghyun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devdonghyun/prismagram/issues"
+  },
+  "homepage": "https://github.com/devdonghyun/prismagram#readme",
+  "dependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "dotenv": "^8.2.0",
+    "graphql-tools": "^7.0.2",
+    "graphql-yoga": "^1.18.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
