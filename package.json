@@ -27,6 +27,8 @@
     "graphql-tools": "^7.0.2",
     "graphql-yoga": "^1.18.3",
     "morgan": "^1.10.0",
+    "nodemailer": "^6.4.17",
+    "nodemailer-sendgrid-transport": "^0.2.0",
     "prisma-client-lib": "^1.34.10"
   },
   "devDependencies": {
