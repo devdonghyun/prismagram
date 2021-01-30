@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Instagram clone with Express +Prisma + React and React Native",
   "scripts": {
-    "dev": "nodemon --exec babel-node src/server.js",
+    "dev": "nodemon --exec babel-node src/server.ts",
     "deploy": "prisma1 deploy",
     "generate": "prisma1 generate",
     "prisma": "npm run deploy && npm run generate"
